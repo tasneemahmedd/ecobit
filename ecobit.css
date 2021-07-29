@@ -1,0 +1,479 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.mainbutton, nav button, #banner-part button, .features .about-us-text button, .subscibe-part button {
+  width: 150px;
+  height: 50px;
+  color: white;
+  border-radius: 50px;
+  font-size: 13px;
+  font-family: "Rajdhani", sans-serif;
+  text-transform: uppercase;
+  background-color: #ff4800;
+  border: 1px solid #ff4800;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.mainbutton:hover, nav button:hover, #banner-part button:hover, .features .about-us-text button:hover, .subscibe-part button:hover {
+  background-color: transparent;
+  color: #ff4800;
+}
+
+.main, nav, .single-features, .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  color: #182028;
+}
+
+header {
+  height: 1020px;
+  background-image: url("assets/images/banner_bg.png");
+  background-repeat: no-repeat;
+  background-size: 65% 100%;
+}
+
+nav {
+  height: 100px;
+}
+
+nav ul {
+  margin-left: 100px;
+  margin-right: 220px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+nav ul li {
+  display: inline;
+  list-style: none;
+}
+
+nav ul .nav-item-dropdown {
+  position: relative;
+}
+
+nav ul .nav-item-dropdown .drop-down {
+  width: 150px;
+  height: 80px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-top: 50px;
+  background-color: #ff4800;
+  border-radius: 5px;
+  visibility: hidden;
+}
+
+nav ul .nav-item-dropdown .drop-down a {
+  display: block;
+  padding: 10px 20px;
+  text-transform: capitalize;
+}
+
+nav ul .nav-item-dropdown .drop-down a:hover {
+  color: #fff;
+}
+
+nav ul .nav-item-dropdown #dropdown {
+  height: 50px;
+}
+
+nav ul .nav-item-dropdown:hover .drop-down {
+  visibility: visible;
+}
+
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 30px 20px;
+}
+
+nav ul li a:hover {
+  color: #ff4800;
+}
+
+nav button {
+  background-color: transparent;
+  color: #182028;
+}
+
+nav button:hover {
+  background-color: #ff4800;
+  color: #fff;
+}
+
+#banner-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#banner-part .part1 {
+  width: 450px;
+  height: 450px;
+  position: relative;
+  margin: 170px 90px;
+}
+
+#banner-part .part1 img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#banner-part .part2 {
+  width: 620px;
+  padding-top: 350px;
+  margin-left: 30px;
+}
+
+#banner-part .part2 h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+  margin-bottom: 50px;
+}
+
+#banner-part .part2 p {
+  color: #888;
+  line-height: 30px;
+  padding-right: 160px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+#banner-part button {
+  width: 175px;
+}
+
+.single-features div {
+  width: 350px;
+  text-align: center;
+  margin: 100px 20px;
+}
+
+.single-features div img {
+  height: 65px;
+}
+
+.single-features div h1 {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+}
+
+.single-features div p {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+.features {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 50px;
+  margin-bottom: 140px;
+}
+
+.features .about-us-text {
+  display: block;
+  width: 44%;
+  height: 470px;
+}
+
+.features .about-us-text h1 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.features .about-us-text p {
+  font-size: 16px;
+  color: #888;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.features .about-us-text button {
+  margin: 40px 0;
+}
+
+.features .learning-img {
+  display: block;
+  width: 45%;
+  height: 470px;
+  position: relative;
+}
+
+.features .learning-img img {
+  position: absolute;
+  width: 100%;
+}
+
+.pricing-text {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.pricing-text h1 {
+  font-size: 45px;
+}
+
+.pricing-text p {
+  font-size: 16px;
+  color: #556172;
+  text-transform: capitalize;
+  line-height: 30px;
+  font-weight: 400;
+  margin: 28px 36px;
+}
+
+#different-pricing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#different-pricing div {
+  width: 25%;
+  text-align: center;
+  border: 1px solid #eaecee;
+  margin: 15px;
+  padding: 40px 40px 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#different-pricing div img {
+  padding-bottom: 18px;
+}
+
+#different-pricing div p {
+  color: #182028;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 27px;
+}
+
+#different-pricing div h3 {
+  font-size: 30px;
+  font-weight: 600;
+  border-top: 1px solid #eee;
+  margin-bottom: 5px;
+  padding-top: 24px;
+}
+
+#different-pricing div h3 span {
+  font-size: 16px;
+  color: #919191;
+  font-weight: 400;
+}
+
+#different-pricing div ul {
+  list-style: none;
+  padding: 0;
+  padding: 12px 0;
+  border-bottom: 1px solid #eaecee;
+}
+
+#different-pricing div ul li {
+  font-size: 14px;
+  color: #7f7f7f;
+  text-transform: capitalize;
+  margin: 10px 0;
+}
+
+#different-pricing div a {
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  display: inline-block;
+  color: #182028;
+  padding-top: 30px;
+  text-decoration: none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#different-pricing div a:hover {
+  color: #ff4800;
+}
+
+#different-pricing div:hover {
+  border: none;
+  -webkit-box-shadow: 1px 1px 20px #f2f3f5  , -1px -1px 20px  #f2f3f5;
+          box-shadow: 1px 1px 20px #f2f3f5  , -1px -1px 20px  #f2f3f5;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+
+.subscibe-part {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 140px;
+  text-align: center;
+}
+
+.subscibe-part h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 55px;
+  margin-bottom: 80px;
+}
+
+.subscibe-part input {
+  width: 560px;
+  height: 80px;
+  padding-left: 20px;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  border: 1px solid #eaecee;
+  outline: #eaecee;
+}
+
+.subscibe-part button {
+  border-radius: 0;
+  height: 80px;
+  margin: 5px;
+}
+
+.subscibe-part button:hover {
+  border: 2px solid #ff4800;
+}
+
+.client-logo {
+  text-align: center;
+  margin-bottom: 140px;
+}
+
+.client-logo img {
+  margin: 0 40px;
+}
+
+footer {
+  background-image: url("assets/images/footer_bg.png.webp");
+}
+
+footer .footer-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  padding: 0 10%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+footer .footer-part .single-footer-part {
+  width: 35%;
+  padding: 0;
+}
+
+footer .footer-part .single-footer-part img {
+  padding: 0 30px 30px 30px;
+}
+
+footer .footer-part .single-footer-part p {
+  color: #888;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+footer .footer-part div {
+  width: 16.25%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+footer .footer-part div h3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+footer .footer-part div ul {
+  list-style: none;
+  padding-left: 0;
+  color: #888;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+footer .footer-part div ul li {
+  margin: 20px 0;
+}
+
+footer .footer-part div ul li:hover {
+  color: #ff4800;
+  cursor: pointer;
+}
+
+footer .last-part {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25px;
+  margin: 0 10%;
+  border-top: 1px solid #cad7dc;
+}
+
+footer .last-part div {
+  float: left;
+}
+
+footer .last-part div p {
+  color: #888;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer .last-part div span {
+  color: #ff4800;
+}
+
+footer .last-part div span:hover {
+  cursor: pointer;
+}
+
+footer .last-part .social-icons {
+  color: #888;
+  float: right;
+}
+
+footer .last-part .social-icons i {
+  margin-left: 30px;
+}
+
+footer .last-part .social-icons i:hover {
+  color: #ff4800;
+  cursor: pointer;
+}
+/*# sourceMappingURL=ecobit.css.map */
